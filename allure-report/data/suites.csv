@@ -1,0 +1,92 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
+Caso de Teste: TC_CADASTRO_004 - Login com NUIT bloqueado
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: missing nome
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+NUIT inválido
+
+","8543","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:01:23 CET 2025","passed","Mon Nov 03 23:01:32 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
+"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
+Caso de Teste: TC_CADASTRO_001 - Login com credenciais válidas
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: true
+Resultado esperado: Success
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+NUIT inválido
+
+Insira apenas letras
+
+","10981","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:00:56 CET 2025","failed","Mon Nov 03 23:01:07 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
+"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
+Caso de Teste: TC_CADASTRO_003 - Login com credenciais válidas
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: Wrong email
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+NUIT inválido
+
+","8515","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:01:15 CET 2025","passed","Mon Nov 03 23:01:23 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
+"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
+Caso de Teste: TC_CADASTRO_005 - Login com password inválido
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: Missing NUIT
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+NUIT inválido
+
+","7957","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:01:32 CET 2025","passed","Mon Nov 03 23:01:40 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
+"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
+Caso de Teste: TC_CADASTRO_002 - Login sem informar o número do NUIT
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o password
+3. Clique no botão ""Login""
+
+Status de teste esperado: true
+Resultado esperado: Success
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+NUIT inválido
+
+","7718","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:01:07 CET 2025","failed","Mon Nov 03 23:01:14 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
