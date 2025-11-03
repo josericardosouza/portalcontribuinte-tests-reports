@@ -1,0 +1,9 @@
+element click intercepted: Element is not clickable at point (105, 659)
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d58c70737e7e5b76b0b8ae1de98268fe, clickElement {id=f.C8A64A8AE5BF410FB37FECC9ABD6FB00.d.66105633DEDFB568DFD90CDC418F216C.e.121}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56995/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d58c70737e7e5b76b0b8ae1de98268fe)] -> xpath: //*[contains(text(), 'Apuramento de Imposto')]]
+Session ID: d58c70737e7e5b76b0b8ae1de98268fe

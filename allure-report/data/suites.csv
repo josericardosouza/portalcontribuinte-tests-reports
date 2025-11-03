@@ -1,92 +1,95 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
-Caso de Teste: TC_CADASTRO_002 - Login sem informar o número do NUIT
+"Requisito: RQ01
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_001 - Login com credenciais válidas
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: true
+Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","9458","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:11 CET 2025","failed","Mon Nov 03 23:52:21 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ02
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_005 - Login com password inválido
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: invalid password
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","8232","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:37 CET 2025","passed","Mon Nov 03 23:52:46 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ01
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_003 - Login com credenciais válidas
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","7981","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:22 CET 2025","passed","Mon Nov 03 23:52:29 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ02
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_004 - Login com NUIT bloqueado
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: Sistema não opermite acesso e informa que o NUIT é está inactivo ou bloqueado
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","7679","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:30 CET 2025","passed","Mon Nov 03 23:52:37 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ01
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_002 - Login sem informar o número do NUIT
 
 Passos do caso de teste: 
 1. Abre a ecran de login
 2. Informa o password
 3. Clique no botão ""Login""
 
-Status de teste esperado: true
-Resultado esperado: Success
-Severidade: TRIVIAL
-
-Status do teste: FAILURE
-Resultado observado: 
-NUIT inválido
-
-","9223","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:05:41 CET 2025","failed","Mon Nov 03 23:05:50 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
-"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
-Caso de Teste: TC_CADASTRO_003 - Login com credenciais válidas
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
 Status de teste esperado: false
-Resultado esperado: Wrong email
+Resultado esperado: Sistema não opermite acesso e informa que o NUIT é um campo obrigatório
 Severidade: TRIVIAL
 
 Status do teste: SUCCESS
 Resultado observado: 
-NUIT inválido
 
-","7714","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:05:50 CET 2025","passed","Mon Nov 03 23:05:58 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
-"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
-Caso de Teste: TC_CADASTRO_001 - Login com credenciais válidas
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: true
-Resultado esperado: Success
-Severidade: TRIVIAL
-
-Status do teste: FAILURE
-Resultado observado: 
-NUIT inválido
-
-Insira apenas letras
-
-","11259","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:05:29 CET 2025","failed","Mon Nov 03 23:05:41 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
-"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
-Caso de Teste: TC_CADASTRO_004 - Login com NUIT bloqueado
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: missing nome
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-NUIT inválido
-
-","8831","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:05:58 CET 2025","passed","Mon Nov 03 23:06:07 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
-"Cenário: TS_CADASTRO_002 - Verificar se a funcionalidade de cadastro de novos contribuintes funciona correctamente para dados válidos do contribuinte
-Caso de Teste: TC_CADASTRO_005 - Login com password inválido
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: Missing NUIT
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-NUIT inválido
-
-","9000","testRegistration","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:06:07 CET 2025","passed","Mon Nov 03 23:06:16 CET 2025","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.taxpayer.registration.TestUserRegistration","testRegistration"
+","801","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:21 CET 2025","passed","Mon Nov 03 23:52:21 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
