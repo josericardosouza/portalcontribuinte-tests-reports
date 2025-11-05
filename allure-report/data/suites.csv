@@ -2,44 +2,6 @@
 "Requisito: RQ01
 
 Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_001 - Login com credenciais válidas
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: true
-Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
-Severidade: TRIVIAL
-
-Status do teste: FAILURE
-Resultado observado: 
-
-","9458","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:11 CET 2025","failed","Mon Nov 03 23:52:21 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
-"Requisito: RQ02
-
-Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_005 - Login com password inválido
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: invalid password
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","8232","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:37 CET 2025","passed","Mon Nov 03 23:52:46 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
-"Requisito: RQ01
-
-Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
 Caso de Teste: TC_003 - Login com credenciais válidas
 
 Passos do caso de teste: 
@@ -55,7 +17,44 @@ Severidade: TRIVIAL
 Status do teste: SUCCESS
 Resultado observado: 
 
-","7981","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:22 CET 2025","passed","Mon Nov 03 23:52:29 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+","878","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Wed Nov 05 18:55:35 CET 2025","passed","Wed Nov 05 18:55:35 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ01
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_001 - Login com credenciais válidas
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: true
+Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","2408","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Wed Nov 05 18:55:31 CET 2025","failed","Wed Nov 05 18:55:33 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ01
+
+Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_002 - Login sem informar o número do NUIT
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o password
+3. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: Sistema não opermite acesso e informa que o NUIT é um campo obrigatório
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","1429","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Wed Nov 05 18:55:33 CET 2025","passed","Wed Nov 05 18:55:34 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
 "Requisito: RQ02
 
 Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
@@ -74,22 +73,23 @@ Severidade: TRIVIAL
 Status do teste: SUCCESS
 Resultado observado: 
 
-","7679","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:30 CET 2025","passed","Mon Nov 03 23:52:37 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
-"Requisito: RQ01
+","923","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Wed Nov 05 18:55:36 CET 2025","passed","Wed Nov 05 18:55:36 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+"Requisito: RQ02
 
 Cenário: TS_DECLARACAO_IPM_003 - Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_002 - Login sem informar o número do NUIT
+Caso de Teste: TC_005 - Login com password inválido
 
 Passos do caso de teste: 
 1. Abre a ecran de login
-2. Informa o password
-3. Clique no botão ""Login""
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
 
 Status de teste esperado: false
-Resultado esperado: Sistema não opermite acesso e informa que o NUIT é um campo obrigatório
+Resultado esperado: invalid password
 Severidade: TRIVIAL
 
 Status do teste: SUCCESS
 Resultado observado: 
 
-","801","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Mon Nov 03 23:52:21 CET 2025","passed","Mon Nov 03 23:52:21 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
+","5017","testMiningTaxDeclarationForm","PortalContribuinteAcceptanceTestSuite","Wed Nov 05 18:55:37 CET 2025","passed","Wed Nov 05 18:55:42 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","PortalContribuinteAcceptanceTest","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testMiningTaxDeclarationForm"
