@@ -1,0 +1,9 @@
+element click intercepted: Element <button type="button" class="pc-mz-button pc-mz-button--primary pc-mz-forms-table-control__add-row-trigger">...</button> is not clickable at point (921, 310). Other element would receive the click: <div class="pc-mz-forms-form-pages__page-header">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9ac8148ca7bd442b6ee8ccbb097a142, clickElement {id=f.20A9E04BBDE30D9D3D4DE49D8089FB0C.d.C37F36B1A45C9CBA7EF446FFC73FFCDC.e.251}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64570}, goog:processID: 14528, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64570/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a9ac8148ca7bd442b6ee8ccbb097a142)] -> xpath: //button[normalize-space(text())='Adicionar linha']]
+Session ID: a9ac8148ca7bd442b6ee8ccbb097a142
