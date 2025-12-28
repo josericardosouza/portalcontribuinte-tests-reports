@@ -1,0 +1,1 @@
+11. IPM (10 × 4): Valor calculado errado. Valor informado no teste: 975340.00 Valor calculado pelo sistema: 990538.60

@@ -1,2 +1,378 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","0","openBrowser","Portal do Contribuinte - UAT - Suite","Sun Dec 28 12:12:17 CET 2025","broken","Sun Dec 28 12:12:17 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","openBrowser"
+"Requisito: RN16
+
+Cenário: Gestão de Dados
+Caso de Teste: TC_022 - Rejeitar quando campos obrigatórios estiverem ausentes
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Submissão aceite.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","29578","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:43:33 CET 2025","passed","Sun Dec 28 22:44:02 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN06
+
+Cenário: Declaração de Substituição
+Caso de Teste: TC_016 - Submeter substituição após existir uma inicial válida
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Ficheiro JSON descarregado com dados do formulário.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","20211","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:41:30 CET 2025","passed","Sun Dec 28 22:41:50 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN01
+
+Cenário: Autenticação e Elegibilidade
+Caso de Teste: TC_001 - Usuários não autenticados não podem acessar a declaração IPM
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Redirecionamento para página de login.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","15278","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:34:56 CET 2025","passed","Sun Dec 28 22:35:12 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN01, RN02
+
+Cenário: Autenticação e Elegibilidade
+Caso de Teste: TC_004 - Sistema rejeita submissões para NUIT inativo ou cancelado
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Submissão permitida.
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","13439","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:35:59 CET 2025","failed","Sun Dec 28 22:36:12 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN15
+
+Cenário: Validação e erros
+Caso de Teste: TC_026 - Validar declaração
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Dados enviados ao sistema; mensagem de sucesso exibida.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","27919","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:45:15 CET 2025","passed","Sun Dec 28 22:45:43 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN04
+
+Cenário: Autenticação e Elegibilidade
+Caso de Teste: TC_006 - Submeter declaração inicial válida dentro do prazo
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: GARE apresenta o prazo correto conforme regra legal.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","33424","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:36:43 CET 2025","passed","Sun Dec 28 22:37:17 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN01, RN02
+
+Cenário: Autenticação e Elegibilidade
+Caso de Teste: TC_003 - Usuários autenticados com M02 podem submeter a declaração
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Formulário acessível e submissão permitida.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","30255","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:35:29 CET 2025","passed","Sun Dec 28 22:35:59 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_015 - Submissão atrasada aciona fluxo de penalidade
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Moeda da GARE = MZN.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","35979","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:40:54 CET 2025","passed","Sun Dec 28 22:41:30 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN13
+
+Cenário: Declaração em formato de ficheiro json
+Caso de Teste: TC_024 - Salvar declaração
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Diálogo fecha; volta ao formulário.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","24276","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:44:27 CET 2025","passed","Sun Dec 28 22:44:51 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN16
+
+Cenário: Validação e erros
+Caso de Teste: TC_023 - Rejeitar tipos de dados ou formatos inválidos
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Submissão aceite.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","23889","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:44:03 CET 2025","passed","Sun Dec 28 22:44:26 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN06
+
+Cenário: Declaração de Substituição
+Caso de Teste: TC_018 - Rejeitar substituição quando não existe declaração inicial
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Lista de erros exibida; submissão bloqueada.
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","34572","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:42:23 CET 2025","failed","Sun Dec 28 22:42:57 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração de Substituição
+Caso de Teste: TC_019 - Submeter substituição após o prazo – marcada como atrasada e com penalidade
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: ""Validação sem erros"".
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","35606","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:42:57 CET 2025","passed","Sun Dec 28 22:43:33 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN06
+
+Cenário: Declaração de Substituição
+Caso de Teste: TC_017 - Submeter múltiplas substituições para o mesmo período
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Formulário preenchido com dados do ficheiro.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","32138","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:41:50 CET 2025","passed","Sun Dec 28 22:42:22 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN18
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_008 - Submeter declaração inicial em Meticais
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Submissão permitida.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","32840","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:37:51 CET 2025","passed","Sun Dec 28 22:38:24 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_013 - Lógica de submissão quando o dia 10 é dia útil
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Documento de comprovativo disponível.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","27985","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:39:50 CET 2025","passed","Sun Dec 28 22:40:18 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN02
+
+Cenário: Autenticação e Elegibilidade
+Caso de Teste: TC_002 - Usuários autenticados sem M02 não podem submeter a declaração
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Sistema impede acesso/submissão e apresenta mensagem de inelegibilidade.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","16829","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:35:12 CET 2025","passed","Sun Dec 28 22:35:29 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN10
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_014 - Lógica de submissão quando o dia 10 não é dia útil
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: GARE gerada corretamente.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","35514","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:40:18 CET 2025","passed","Sun Dec 28 22:40:54 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN05
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_007 - Submeter declaração inicial com valor zero
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Submissão aceite.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","34526","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:37:17 CET 2025","passed","Sun Dec 28 22:37:51 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN18
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_009 - Submeter declaração inicial em Dólares
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Erro → Substituição não permitida.
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","27005","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:38:24 CET 2025","failed","Sun Dec 28 22:38:51 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_012 - Submeter no último dia permitido
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Número de inserção exibido após submissão.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","28662","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:39:22 CET 2025","passed","Sun Dec 28 22:39:50 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Inicial
+Caso de Teste: TC_011 - Submeter declaração inicial após o prazo – marcada como atrasada
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Verifica:
+
+8% diamantes
+
+6% metais preciosos / pedras
+
+3% básicos, carvão, rochas
+
+1.5% areia/pedra
+Resultado Esperado: Cálculo corresponde às taxas definidas.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","30100","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:38:51 CET 2025","passed","Sun Dec 28 22:39:21 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN14
+
+Cenário: Declaração em formato de ficheiro json
+Caso de Teste: TC_025 - Abrir declaração previamente salva
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Dados enviados ao sistema; mensagem de sucesso exibida.
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","23656","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:44:51 CET 2025","passed","Sun Dec 28 22:45:15 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
+"Requisito: RN02, RN03
+
+Cenário: Autenticação e Elegibilidade
+Caso de Teste: TC_005 - Bloquear submissões antes da data de início da produção
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão não permitida
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","30647","Visualizar Declaração IPM","Portal do Contribuinte - UAT - Suite","Sun Dec 28 22:36:13 CET 2025","failed","Sun Dec 28 22:36:43 CET 2025","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.miningtax.TestMiningTaxDeclaration","testViewDeclarationForm"
