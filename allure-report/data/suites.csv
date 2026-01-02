@@ -1,22 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Requisito: RQ01
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_002 - Login sem informar o número do NUIT
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o password
-3. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: Sistema não opermite acesso e informa que o NUIT é um campo obrigatório
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","35642","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:40:15 CET 2026","passed","Fri Jan 02 19:40:51 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
 "Requisito: RQ02
 
 Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
@@ -35,45 +17,7 @@ Severidade: TRIVIAL
 Status do teste: SUCCESS
 Resultado observado: 
 
-","38206","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:42:07 CET 2026","passed","Fri Jan 02 19:42:46 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
-"Requisito: RQ02
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_004 - Login com NUIT bloqueado
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: Sistema não opermite acesso e informa que o NUIT é está inactivo ou bloqueado
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","38634","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:41:29 CET 2026","passed","Fri Jan 02 19:42:07 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
-"Requisito: RQ01
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_003 - Login com credenciais válidas
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","37916","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:40:51 CET 2026","passed","Fri Jan 02 19:41:29 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
+","125525","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:58:37 CET 2026","passed","Fri Jan 02 20:00:43 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
 "Requisito: RQ01
 
 Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
@@ -92,4 +36,60 @@ Severidade: TRIVIAL
 Status do teste: FAILURE
 Resultado observado: 
 
-","38089","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:39:37 CET 2026","failed","Fri Jan 02 19:40:15 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
+","39693","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:56:03 CET 2026","failed","Fri Jan 02 19:56:43 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
+"Requisito: RQ01
+
+Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_003 - Login com credenciais válidas
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","39055","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:57:19 CET 2026","passed","Fri Jan 02 19:57:58 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
+"Requisito: RQ02
+
+Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_004 - Login com NUIT bloqueado
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o NUIT
+3. Informa o password
+4. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: Sistema não opermite acesso e informa que o NUIT é está inactivo ou bloqueado
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","39199","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:57:58 CET 2026","passed","Fri Jan 02 19:58:37 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
+"Requisito: RQ01
+
+Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
+Caso de Teste: TC_002 - Login sem informar o número do NUIT
+
+Passos do caso de teste: 
+1. Abre a ecran de login
+2. Informa o password
+3. Clique no botão ""Login""
+
+Status de teste esperado: false
+Resultado esperado: Sistema não opermite acesso e informa que o NUIT é um campo obrigatório
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","36003","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 19:56:43 CET 2026","passed","Fri Jan 02 19:57:19 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
