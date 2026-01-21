@@ -1,95 +1,386 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Requisito: RQ02
+"Requisito: RN03
 
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_004 - Login com NUIT bloqueado
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_010 - Submeter declaração quando dia 20 é útil
 
 Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
+TBD
 
 Status de teste esperado: false
-Resultado esperado: Sistema não opermite acesso e informa que o NUIT é está inactivo ou bloqueado
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","38211","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 20:14:05 CET 2026","passed","Fri Jan 02 20:14:43 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
-"Requisito: RQ02
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_005 - Login com password inválido
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: invalid password
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","37817","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 20:14:43 CET 2026","passed","Fri Jan 02 20:15:21 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
-"Requisito: RQ01
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_003 - Login com credenciais válidas
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","38127","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 20:13:27 CET 2026","passed","Fri Jan 02 20:14:05 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
-"Requisito: RQ01
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_002 - Login sem informar o número do NUIT
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o password
-3. Clique no botão ""Login""
-
-Status de teste esperado: false
-Resultado esperado: Sistema não opermite acesso e informa que o NUIT é um campo obrigatório
-Severidade: TRIVIAL
-
-Status do teste: SUCCESS
-Resultado observado: 
-
-","35886","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 20:12:51 CET 2026","passed","Fri Jan 02 20:13:27 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
-"Requisito: RQ01
-
-Cenário: Verificar se a funcionalidade de login do contribuinte funciona correctamente para credenciais válidas e inválidas
-Caso de Teste: TC_001 - Login com credenciais válidas
-
-Passos do caso de teste: 
-1. Abre a ecran de login
-2. Informa o NUIT
-3. Informa o password
-4. Clique no botão ""Login""
-
-Status de teste esperado: true
-Resultado esperado: O contribuinte consegue logar com sucesso e aceder o Portal do Contribuinte
+Resultado esperado: Submissão permitida e GARE correta
 Severidade: TRIVIAL
 
 Status do teste: FAILURE
 Resultado observado: 
 
-","11746","Gravar Declaração TSC","Portal do Contribuinte - UAT - Suite","Fri Jan 02 20:12:39 CET 2026","failed","Fri Jan 02 20:12:51 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSaveOpenDeclarationForm"
+","9927","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:17:06 CET 2026","failed","Wed Jan 21 19:17:16 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN05,RN15
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_009 - Submeter segunda declaração inicial no mesmo período
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Sistema rejeita segunda declaração
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10160","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:56 CET 2026","failed","Wed Jan 21 19:17:06 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN02
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_002 - Submeter declaração sem elegibilidade M02
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Sistema bloqueia submissão e informa inelegibilidade
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","17242","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:15:53 CET 2026","failed","Wed Jan 21 19:16:10 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_011 - Submeter declaração quando dia 20 não é útil
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão permitida até dia útil anterior
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","9836","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:17:16 CET 2026","failed","Wed Jan 21 19:17:26 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN13,RN14
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_017 - Submeter com campos obrigatórios ausentes
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Erros exibidos e submissão bloqueada
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10529","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:18:19 CET 2026","failed","Wed Jan 21 19:18:29 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN13,RN14
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_018 - Submeter com formatos inválidos
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Erros exibidos e submissão bloqueada
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10805","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:18:29 CET 2026","failed","Wed Jan 21 19:18:40 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN01
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_001 - Aceder ao formulário TSC sem autenticação
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: true
+Resultado esperado: Acesso negado e redirecionamento para login
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+1 Erro
+
+","22269","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:15:30 CET 2026","failed","Wed Jan 21 19:15:53 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN13
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_020 - Validar declaração sem erros
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Sistema confirma ausência de erros
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10153","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:18:51 CET 2026","failed","Wed Jan 21 19:19:01 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN06,RN09
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_005 - Submeter declaração inicial com débito tributário
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão permitida e GARE calculada corretamente
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","6594","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:20 CET 2026","passed","Wed Jan 21 19:16:27 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_012 - Submeter declaração inicial fora do prazo
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão com penalidade aplicada
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","11018","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:17:26 CET 2026","failed","Wed Jan 21 19:17:37 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN01
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_003 - Submeter declaração com NUIT inativo
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Acesso negado ou erro apresentado
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","8335","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:10 CET 2026","failed","Wed Jan 21 19:16:19 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN10,RN17
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_007 - Submeter declaração em Meticais
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão permitida e GARE em Meticais
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","9511","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:36 CET 2026","failed","Wed Jan 21 19:16:46 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN05
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_015 - Submeter substituição sem inicial existente
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Sistema rejeita substituição
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10083","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:17:58 CET 2026","failed","Wed Jan 21 19:18:08 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN11
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_021 - Gravar declaração em JSON
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Arquivo JSON salvo localmente
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","9755","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:19:01 CET 2026","failed","Wed Jan 21 19:19:11 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN12,RN14
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_023 - Submeter declaração carregada de JSON
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão realizada se válida
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","11151","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:19:21 CET 2026","failed","Wed Jan 21 19:19:32 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN03,RN07,RN09
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_004 - Submeter declaração inicial válida dentro do prazo
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão com sucesso, número gerado e GARE criada
+Severidade: TRIVIAL
+
+Status do teste: SUCCESS
+Resultado observado: 
+
+","1510","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:19 CET 2026","passed","Wed Jan 21 19:16:20 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN03
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_016 - Submeter substituição fora do prazo
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão com penalidade aplicada
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10259","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:18:08 CET 2026","failed","Wed Jan 21 19:18:19 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN05
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_014 - Submeter múltiplas substituições
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Todas substituições permitidas
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","11493","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:17:47 CET 2026","failed","Wed Jan 21 19:17:58 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN12
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_022 - Abrir declaração JSON
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Campos preenchidos corretamente
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10055","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:19:11 CET 2026","failed","Wed Jan 21 19:19:21 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN04
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_006 - Submeter declaração inicial com valor zero
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão permitida com valor zero
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","9363","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:27 CET 2026","failed","Wed Jan 21 19:16:36 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN05,RN15
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_013 - Submeter declaração de substituição com inicial existente
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Substituição permitida
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","9645","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:17:37 CET 2026","failed","Wed Jan 21 19:17:47 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN13
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_019 - Validar declaração com erros
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Lista de erros apresentada
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10201","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:18:40 CET 2026","failed","Wed Jan 21 19:18:50 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN10,RN17
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_008 - Submeter declaração em Dólares
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Submissão permitida e GARE convertida para Meticais
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10046","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:16:46 CET 2026","failed","Wed Jan 21 19:16:56 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
+"Requisito: RN07
+
+Cenário: Declaração Taxa Sobre Combústível
+Caso de Teste: TC_024 - Consultar declaração submetida
+
+Passos do caso de teste: 
+TBD
+
+Status de teste esperado: false
+Resultado esperado: Declaração exibida em modo leitura
+Severidade: TRIVIAL
+
+Status do teste: FAILURE
+Resultado observado: 
+
+","10101","Submeter Declaração TSC","Portal do Contribuinte - UAT - Suite","Wed Jan 21 19:19:32 CET 2026","failed","Wed Jan 21 19:19:42 CET 2026","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","Testes de Aceitação","at.portalcontribuinte.declaration.fueltax.TestFuelTaxDeclaration","testSubmitDeclarationForm"
