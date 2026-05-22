@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.1",
-	"@generated": "Fri, 22 May 2026 11:49:09",
-	"created": "2026-05-22T11:49:09.971890243Z",
+	"@generated": "Fri, 22 May 2026 11:57:02",
+	"created": "2026-05-22T11:57:02.215499275Z",
 	"site":[ 
 		{
 			"@name": "https://cas-portaldocontribuinte.at.gov.mz",
@@ -21,7 +21,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "35",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -31,7 +31,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "42",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -41,7 +41,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "79",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -51,7 +51,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "17",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -61,7 +61,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "21",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -91,7 +91,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "27",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -101,7 +101,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "34",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -111,7 +111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "77",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -151,7 +151,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "18",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -181,7 +181,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "70",
+							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
+							"nodeName": null,
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "14",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly.css",
 							"nodeName": null,
 							"method": "GET",
@@ -201,7 +211,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "28",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -211,7 +221,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "71",
+							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
+							"nodeName": null,
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "19",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -221,8 +241,18 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "29",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
+							"nodeName": null,
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -231,7 +261,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "9",
+					"count": "12",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
@@ -251,7 +281,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "10",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -261,7 +291,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "15",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -271,7 +301,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "68",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -282,16 +312,6 @@
 						},
 						{
 							"id": "11",
-							"uri": "https://cas-portaldocontribuinte.at.gov.mz/robots.txt",
-							"nodeName": null,
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "9",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -301,7 +321,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
@@ -331,7 +351,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "30",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/console",
 							"nodeName": null,
 							"method": "GET",
@@ -351,7 +371,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "43",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/favicon.ico",
 							"nodeName": null,
 							"method": "GET",
@@ -361,7 +381,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "76",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/jbosscommunity_logo_hori_white.png",
 							"nodeName": null,
 							"method": "GET",
@@ -371,7 +391,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "84",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -381,7 +401,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "47",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -391,7 +411,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "37",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -401,7 +421,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "59",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly.css",
 							"nodeName": null,
 							"method": "GET",
@@ -411,7 +431,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "90",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly_logo.png",
 							"nodeName": null,
 							"method": "GET",
@@ -428,7 +448,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</p><p>https://www.troyhunt.com/shhh-dont-let-your-response-headers/</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10036",
@@ -441,7 +461,7 @@
 					"desc": "<p>The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>",
 					"instances":[ 
 						{
-							"id": "50",
+							"id": "52",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -451,7 +471,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "25",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/console",
 							"nodeName": null,
 							"method": "GET",
@@ -461,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "60",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -471,7 +491,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "26",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/favicon.ico",
 							"nodeName": null,
 							"method": "GET",
@@ -481,7 +501,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "72",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/jbosscommunity_logo_hori_white.png",
 							"nodeName": null,
 							"method": "GET",
@@ -491,7 +511,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "81",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -501,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "36",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -511,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "31",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -521,7 +541,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "20",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly.css",
 							"nodeName": null,
 							"method": "GET",
@@ -531,7 +551,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "87",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly_logo.png",
 							"nodeName": null,
 							"method": "GET",
@@ -548,7 +568,7 @@
 					"reference": "<p>https://httpd.apache.org/docs/current/mod/core.html#servertokens</p><p>https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)</p><p>https://www.troyhunt.com/shhh-dont-let-your-response-headers/</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10035",
@@ -561,7 +581,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "51",
+							"id": "53",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -571,7 +591,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "63",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -581,7 +601,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "38",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/favicon.ico",
 							"nodeName": null,
 							"method": "GET",
@@ -591,7 +611,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "74",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/jbosscommunity_logo_hori_white.png",
 							"nodeName": null,
 							"method": "GET",
@@ -601,7 +621,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "82",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -611,7 +631,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "45",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/robots.txt",
 							"nodeName": null,
 							"method": "GET",
@@ -621,7 +641,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "32",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/sitemap.xml",
 							"nodeName": null,
 							"method": "GET",
@@ -631,7 +651,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "39",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly.css",
 							"nodeName": null,
 							"method": "GET",
@@ -641,7 +661,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "88",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly_logo.png",
 							"nodeName": null,
 							"method": "GET",
@@ -658,7 +678,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10021",
@@ -681,7 +701,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "63",
+							"id": "64",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -691,7 +711,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "27",
+							"id": "40",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/favicon.ico",
 							"nodeName": null,
 							"method": "GET",
@@ -701,7 +721,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "73",
+							"id": "75",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/jbosscommunity_logo_hori_white.png",
 							"nodeName": null,
 							"method": "GET",
@@ -711,7 +731,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "86",
+							"id": "83",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -721,7 +741,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "42",
+							"id": "58",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly.css",
 							"nodeName": null,
 							"method": "GET",
@@ -731,7 +751,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "76",
+							"id": "89",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly_logo.png",
 							"nodeName": null,
 							"method": "GET",
@@ -748,7 +768,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10116",
@@ -761,8 +781,8 @@
 					"desc": "<p>The version of ZAP you are using to test your app is out of date and is no longer being updated.</p><p>The risk level is set based on how out of date your ZAP version is.</p>",
 					"instances":[ 
 						{
-							"id": "66",
-							"uri": "https://cas-portaldocontribuinte.at.gov.mz/favicon.ico",
+							"id": "85",
+							"uri": "https://cas-portaldocontribuinte.at.gov.mz/console",
 							"nodeName": null,
 							"method": "GET",
 							"param": "",
@@ -778,7 +798,7 @@
 					"reference": "<p>https://www.zaproxy.org/download/</p>",
 					"cweid": "1104",
 					"wascid": "45",
-					"sourceid": "17"
+					"sourceid": "16"
 				},
 				{
 					"pluginid": "10027",
@@ -791,7 +811,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "46",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -811,7 +831,7 @@
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"<!--\n  ~ JBoss, Home of Professional Open Source.\n  ~ Copyright (c) 2014, Red Hat, Inc., and individual contributors\n  ~ as indi\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "83",
+							"id": "80",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -841,7 +861,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "5",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/console",
 							"nodeName": null,
 							"method": "GET",
@@ -871,7 +891,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "33",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
 							"nodeName": null,
 							"method": "GET",
@@ -881,7 +901,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "41",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
 							"method": "GET",
@@ -891,7 +911,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "78",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -921,16 +941,6 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "0",
-							"uri": "https://cas-portaldocontribuinte.at.gov.mz/",
-							"nodeName": null,
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
 							"id": "7",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/documentation.html",
 							"nodeName": null,
@@ -941,17 +951,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "10",
-							"uri": "https://cas-portaldocontribuinte.at.gov.mz/favicon.ico",
-							"nodeName": null,
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "67",
+							"id": "66",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/jbosscommunity_logo_hori_white.png",
 							"nodeName": null,
 							"method": "GET",
@@ -961,7 +961,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "78",
+							"id": "67",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/noredirect.html",
 							"nodeName": null,
 							"method": "GET",
@@ -971,17 +971,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "3",
-							"uri": "https://cas-portaldocontribuinte.at.gov.mz/sitemap.xml",
-							"nodeName": null,
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "5",
+							"id": "1",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly.css",
 							"nodeName": null,
 							"method": "GET",
@@ -991,7 +981,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "68",
+							"id": "86",
 							"uri": "https://cas-portaldocontribuinte.at.gov.mz/wildfly_logo.png",
 							"nodeName": null,
 							"method": "GET",
@@ -1001,14 +991,14 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "8",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "13"
 				}
 			]
 		}
